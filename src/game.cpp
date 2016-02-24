@@ -20,18 +20,7 @@
 #include "game.h"
 #include <cstdio>
 
-void GameFunction1( )
-{
-	printf( "hahaha\n" );
-}
-
-void GameFunction2( )
-{
-	printf( "WOW\n" );
-}
-
 EXPORT void Loop( )
 {
-	GameFunction1( );
-	GameFunction2( );
+	printf( "hi\n" );
 }

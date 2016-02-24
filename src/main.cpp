@@ -74,6 +74,9 @@ void LoadGameDLL( )
 
 int main( )
 {
+	char buf[ 256 ];
+	GetCurrentDirectory( 256, buf );
+
 	LoadGameDLL( );
 
 	while( 1 )

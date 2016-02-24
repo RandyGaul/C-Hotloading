@@ -1,6 +1,6 @@
 Tools -> External Tools -> Add
 Title: Build DLL
-Command: $(SolutionDir)build_dll.bat
+Command: $(SolutionDir)build.bat
 Arguments: 
 Initial directory: $(SolutionDir)
 Select the box for "Use Output Window"

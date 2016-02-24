@@ -1,0 +1,11 @@
+Tools -> External Tools -> Add
+Title: Build DLL
+Command: $(SolutionDir)build_dll.bat
+Arguments: 
+Initial directory: $(SolutionDir)
+Select the box for "Use Output Window"
+Hit Apply and then OK
+
+Tools -> Options -> Environment -> Keyboard -> Search for Tools.ExternalCommand8
+Modify the "Press shortcut keys" box
+Hit Assign and then OK

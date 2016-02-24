@@ -5,7 +5,7 @@ Quick example of compiling a "game's" main loop into a DLL with the ability to r
 
 I've included notes on how to add a hotkey (I used alt + f5) to recompile while running the executable from within Visual Studio, even while the debugger is attached.
 
-Windows only demo.
+Windows only demo. Batch file setup for MSVC 2013 (v12); easily modifiable for other version.
 
 Instructions
 ------------

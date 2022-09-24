@@ -6,6 +6,6 @@ Initial directory: $(SolutionDir)
 Select the box for "Use Output Window"
 Hit Apply and then OK
 
-Tools -> Options -> Environment -> Keyboard -> Search for Tools.ExternalCommand8
+Tools -> Options -> Environment -> Keyboard -> Search for Tools.ExternalCommand8 (replace 8 with whatever the index is, it's the count of entries under "Menu contents")
 Modify the "Press shortcut keys" box
 Hit Assign and then OK
